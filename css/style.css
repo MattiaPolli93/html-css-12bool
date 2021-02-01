@@ -1,18 +1,21 @@
-.container {
-    background-color: #ffc0cb;
-    font-size: 16px;
+p {
+   text-align: center;
+   line-height: calc(100vh / 5);
 }
 
 [class*="col-"] {
-    text-align: center;
-    margin: 0 auto;
-    line-height: 100px;
+    background-color: #ffb3b3;
     border: 1px solid #000;
+    margin: 0 auto;
+    height: calc(100vh / 5);
+}
+
+.padded {
+    padding: 5px;
 }
 
 .nested {
-   background-color: #f07f80;
-   padding: 2px;
-   border: 1px solid #fff;
-
+    height: 100%;
+    background-color: #ff8080;
+    border-color: #ffb3b3;
 }
