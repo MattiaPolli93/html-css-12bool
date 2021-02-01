@@ -1,0 +1,18 @@
+.container {
+    background-color: #ffc0cb;
+    font-size: 16px;
+}
+
+[class*="col-"] {
+    text-align: center;
+    margin: 0 auto;
+    line-height: 100px;
+    border: 1px solid #000;
+}
+
+.nested {
+   background-color: #f07f80;
+   padding: 2px;
+   border: 1px solid #fff;
+
+}
