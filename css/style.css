@@ -17,5 +17,5 @@ p {
 .nested {
     height: 100%;
     background-color: #ff8080;
-    border-color: #ffb3b3;
+    border: 1px solid #fff;
 }
